@@ -63,11 +63,6 @@ npm install
 npm start
 ```
 
-3. Run tests:
-```bash
-npm test
-```
-
 ## Project Structure
 
 ```
