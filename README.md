@@ -66,11 +66,13 @@ npm start
 ## Project Structure
 
 ```
-├── app.js              # Main application file
+├── app.js                    # Main application file
 ├── models/
-│   └── boardModel.js   # Database model
+│   └── boardModel.js         # Database model
+├── controllers/
+│   └── boardController.js    # Business logic and request handling
 ├── routes/
-│   └── boards.js       # API routes
+│   └── boards.js             # API routes (routing only)
 ├── package.json
 └── README.md
 ```
