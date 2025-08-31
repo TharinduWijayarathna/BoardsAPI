@@ -63,38 +63,4 @@ router.put('/:id', async (req, res) => {
     }
 });
 
-// GET /boards - Get all board items (optional, for testing)
-// router.get('/', async (req, res) => {
-//     try {
-//         const items = await boardModel.getAll();
-//         res.json(items);
-//     } catch (error) {
-//         console.error('Error fetching board items:', error);
-//         res.status(500).json({ error: 'Internal server error' });
-//     }
-// });
-
-// GET /boards/:id - Get board item by ID (optional, for testing)
-// router.get('/:id', async (req, res) => {
-//     try {
-//         const { id } = req.params;
-//         const itemId = parseInt(id);
-
-//         if (isNaN(itemId)) {
-//             return res.status(400).json({ error: 'Invalid ID format' });
-//         }
-
-//         const item = await boardModel.getById(itemId);
-
-//         if (!item) {
-//             return res.status(404).json({ error: 'Item not found' });
-//         }
-
-//         res.json(item);
-//     } catch (error) {
-//         console.error('Error fetching board item:', error);
-//         res.status(500).json({ error: 'Internal server error' });
-//     }
-// });
-
 module.exports = router;
