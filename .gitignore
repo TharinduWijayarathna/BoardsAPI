@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.env
+*.sqlite
+*.db
+coverage/
+.nyc_output/

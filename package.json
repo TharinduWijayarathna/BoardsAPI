@@ -1,0 +1,24 @@
+{
+    "name": "boards-api",
+    "version": "1.0.0",
+    "description": "REST API for managing board items",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "test": "jest",
+      "dev": "nodemon app.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "sqlite3": "^5.1.6",
+      "cors": "^2.8.5"
+    },
+    "devDependencies": {
+      "jest": "^29.5.0",
+      "supertest": "^6.3.3",
+      "nodemon": "^2.0.22"
+    },
+    "jest": {
+      "testEnvironment": "node"
+    }
+  }
